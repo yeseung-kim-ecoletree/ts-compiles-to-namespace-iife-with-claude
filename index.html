@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyApp</title>
+</head>
+<body>
+    <script src="dist/bundle.js"></script>
+    <script>
+        // 전역 네임스페이스로 접근 가능
+        const app = MyApp.init();
+        app.addUser('John Doe', 'john@example.com');
+        console.log(app.listUsers());
+    </script>
+</body>
+</html>

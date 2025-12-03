@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* 네임스페이스 IIFE 출력을 위한 핵심 설정 */
+    "module": "none",                    // 모듈 시스템 사용 안 함
+    "target": "ES5",                     // ES5 출력 (IIFE 형식)
+    "outFile": "./dist/bundle.js",       // 단일 파일로 번들링
+    
+    /* 추가 옵션 */
+    "lib": ["ES2015", "DOM"],            // 사용할 라이브러리
+    "sourceMap": true,                   // 소스맵 생성
+    "declaration": true,                 // .d.ts 파일 생성
+    "declarationMap": true,              // 선언 파일 소스맵
+    
+    /* 코드 품질 */
+    "strict": true,                      // 엄격 모드
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    
+    /* 기타 */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

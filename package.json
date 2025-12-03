@@ -1,0 +1,13 @@
+{
+  "name": "typescript-namespace-bundle",
+  "version": "1.0.0",
+  "description": "TypeScript namespace IIFE bundling setup",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "bundle": "tsc && node scripts/bundle.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
