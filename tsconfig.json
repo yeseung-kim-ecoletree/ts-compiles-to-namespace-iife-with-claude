@@ -2,7 +2,7 @@
   "compilerOptions": {
     /* 네임스페이스 IIFE 출력을 위한 핵심 설정 */
     "module": "none",                    // 모듈 시스템 사용 안 함
-    "target": "ES5",                     // ES5 출력 (IIFE 형식)
+    "target": "ES2015",                  // ES6+ (실제 class 문법 사용)
     "outFile": "./dist/bundle.js",       // 단일 파일로 번들링
     
     /* 추가 옵션 */
